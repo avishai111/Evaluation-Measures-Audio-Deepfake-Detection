@@ -59,10 +59,6 @@ To use the general a-DCF:
 > *"Tandem Assessment of Spoofing Countermeasures and Automatic Speaker Verification: Fundamentals"*,  
 > 	submitted to Speaker Odyssey 2024. [[PDF](https://doi.org/10.1109/TASLP.2020.3009494)], [[Github](https://github.com/shimhz/a_DCF)]
 
-## 📜 License
-
-This project is released under the **MIT License**. Feel free to use, modify, and share it!
-
 ---
 
 ## 🙌 Acknowledgements
