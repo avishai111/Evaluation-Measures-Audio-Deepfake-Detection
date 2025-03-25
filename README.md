@@ -54,7 +54,7 @@ This repo implements metric computations based on the following concepts:
 > *"Tandem Assessment of Spoofing Countermeasures and Automatic Speaker Verification: Fundamentals"*,  
 > 	Published in IEEE/ACM Transactions on Audio, Speech, and Language Processing. [[PDF](https://doi.org/10.1109/TASLP.2020.3009494)]
 ---
-To use the general a-DCF:
+To use the general a-DCF measure:
 > T. Kinnunen, and Itshak Lapidot et al.,  
 > *"Tandem Assessment of Spoofing Countermeasures and Automatic Speaker Verification: Fundamentals"*,  
 > 	submitted to Speaker Odyssey 2024. [[PDF](https://doi.org/10.1109/TASLP.2020.3009494)], [[Github](https://github.com/shimhz/a_DCF)]
