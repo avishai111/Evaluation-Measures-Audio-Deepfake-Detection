@@ -85,9 +85,8 @@ If you use this codebase in your research or publications, please consider citin
 
 If you have questions, feedback, or want to collaborate, feel free to reach out:
 *Avishai Weizman**  
- 📧 Email: [Avishai11900@gmail.com](mailto:Avishai11900@gmail.com)  
+ 📧 Email: [Avishai Weizman](mailto:wavishay@post.bgu.ac.il)  
  🔗 GitHub: [github.com/avishai111](https://github.com/avishai111)
- 📄 arXiv: [arxiv.org/a/your_arxiv_id](https://arxiv.org/a/your_arxiv_id)  
  🎓 Google Scholar: [Avishai Weizman](https://scholar.google.com/citations?hl=iw&user=vWlnVpUAAAAJ)  
  💼 LinkedIn: [linkedin.com/in/avishai-weizman/](https://www.linkedin.com/in/avishai-weizman/)
  
