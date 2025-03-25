@@ -45,7 +45,7 @@ This repo implements metric computations based on the following concepts:
 
 - **EER**: The point where false acceptance and false rejection rates are equal.
 - **DCF**: Cost-based metric combining false accept/reject rates with task-specific costs.
-- **t-DCF**: Measures the impact of a spoofing countermeasure (CM) in a tandem ASV+CM system, incorporating priors and detection costs.
+- **t-DCF**: Measures the impact of a spoofing countermeasure (CM) in a tandem system, incorporating priors and detection costs.
 
 ### 🔗 Reference Paper
 
@@ -55,12 +55,6 @@ This repo implements metric computations based on the following concepts:
 
 ---
 
-## 📌 To Do
-- [ ] Add support for real dataset input (e.g., CSV loading)
-- [ ] Add CLI support for custom input and thresholds
-- [ ] Upload sample data for quick testing
-
----
 
 ## 📜 License
 
