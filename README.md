@@ -51,10 +51,16 @@ This repo implements metric computations based on the following concepts:
 
 > T. Kinnunen, et al.,  
 > *"t-DCF: a Detection Cost Function for the Tandem Assessment of Spoofing Countermeasures and Automatic Speaker Verification"*,  
-> Odyssey 2018. [[PDF](https://www.isca-speech.org/archive/Odyssey_2018/pdfs/68.pdf)]
-
+> 	Published in Odyssey 2018: the Speaker and Language Recognition Workshop. [[PDF](https://www.isca-speech.org/archive/Odyssey_2018/pdfs/68.pdf)]
 ---
-
+> T. Kinnunen, et al.,  
+> *"Tandem Assessment of Spoofing Countermeasures and Automatic Speaker Verification: Fundamentals"*,  
+> 	Published in IEEE/ACM Transactions on Audio, Speech, and Language Processing. [[PDF](https://doi.org/10.1109/TASLP.2020.3009494)]
+---
+To use the general a-DCF:
+> T. Kinnunen, and Itshak Lapidot et al.,  
+> *"Tandem Assessment of Spoofing Countermeasures and Automatic Speaker Verification: Fundamentals"*,  
+> 	submitted to Speaker Odyssey 2024. [[PDF](https://doi.org/10.1109/TASLP.2020.3009494)], [[Github](https://github.com/shimhz/a_DCF)]
 
 ## 📜 License
 
@@ -64,8 +70,17 @@ This project is released under the **MIT License**. Feel free to use, modify, an
 
 ## 🙌 Acknowledgements
 
-This work is inspired by the ASVspoof Challenge evaluation framework and research in spoofing countermeasures for speaker verification.
+This work is inspired by the ASVspoof Challenge evaluation framework and research in spoofing countermeasures (CM) for automatic speaker verification (ASV) systems.
 
 ---
 
-Let me know if you want a version with Markdown badges, visuals, or sample output!
+## 📬 Contact
+
+If you have questions, feedback, or want to collaborate, feel free to reach out:
+
+**Your Name**  
+📧 Email: [Avishai11900@gmail.com](mailto:Avishai11900@gmail.com)  
+🔗 GitHub: [github.com/avishai111](https://github.com/avishai111)
+📄 arXiv: [arxiv.org/a/your_arxiv_id](https://arxiv.org/a/your_arxiv_id)  
+🎓 Google Scholar: [scholar.google.com/citations?user=vWlnVpUAAAAJ](https://scholar.google.com/citations?hl=iw&user=vWlnVpUAAAAJ)  
+💼 LinkedIn: [linkedin.com/in/avishai-weizman/](https://www.linkedin.com/in/avishai-weizman/)
