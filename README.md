@@ -1,7 +1,7 @@
 
 # 🎧 Audio Deepfake Detection Metrics
 
-This repository provides a complete evaluation toolkit for **Audio Deepfake Detection** and **Speaker Verification** systems. It implements key evaluation metrics such as:
+This repository provides a evaluation toolkit for **Audio Deepfake Detection** and **Speaker Verification** systems. It implements key evaluation metrics such as:
 
 - ✅ Equal Error Rate (EER)
 - ✅ Detection Cost Function (DCF)
