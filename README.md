@@ -32,7 +32,7 @@ This will:
 - Generate synthetic ASV and CM scores
 - Compute evaluation metrics
 - Print them to the console
-- Plot t-DCF curves for visual analysis
+- Plot t-DCF curves as function of the CM thresholds for visual analysis
 
 ---
 
