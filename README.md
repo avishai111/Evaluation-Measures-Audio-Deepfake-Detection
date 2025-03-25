@@ -66,14 +66,23 @@ To use the general a-DCF measure:
 This work is inspired by the ASVspoof Challenge evaluation framework and research in spoofing countermeasures (CM) for automatic speaker verification (ASV) systems.
 
 ---
+## 📚 Cite This Work
+
+If you use this codebase in your research or publications, please consider citing it:
+
+```bibtex
+@misc{audio-deepfake-metrics,
+  author       = {Avishai Weizman},
+  title        = {Evaluation Measures for Audio Deepfake Detection and Speaker Verification},
+  year         = {2025},
+  url          = {https://github.com/avishai111/audio-deepfake-detection-metrics},
+  note         = {GitHub repository}
+}
+```
+---
 
 ## 📬 Contact
 
 If you have questions, feedback, or want to collaborate, feel free to reach out:
 
-**Your Name**  
-📧 Email: [Avishai11900@gmail.com](mailto:Avishai11900@gmail.com)  
-🔗 GitHub: [github.com/avishai111](https://github.com/avishai111)
-📄 arXiv: [arxiv.org/a/your_arxiv_id](https://arxiv.org/a/your_arxiv_id)  
-🎓 Google Scholar: [Avishai Weizman](https://scholar.google.com/citations?hl=iw&user=vWlnVpUAAAAJ)  
-💼 LinkedIn: [linkedin.com/in/avishai-weizman/](https://www.linkedin.com/in/avishai-weizman/)
+
