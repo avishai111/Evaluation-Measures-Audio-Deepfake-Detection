@@ -66,7 +66,7 @@ To use the general a-DCF measure:
 This work is inspired by the ASVspoof Challenge evaluation framework and research in spoofing countermeasures (CM) for automatic speaker verification (ASV) systems.
 
 ---
-## 📚 Cite This Work
+## 📚 Cite This Github:
 
 If you use this codebase in your research or publications, please consider citing it:
 
