@@ -1,6 +1,3 @@
-Absolutely! Here's a clean and informative `README.md` tailored for your repo:
-
----
 
 # 🎧 Audio Deepfake Detection Metrics
 
