@@ -1,6 +1,6 @@
 import numpy as np
 import sys
-from typing import Tuple, Optional , Union, Dict
+from typing import Tuple, Optional , Union, Dict ,Literal
 import torch
 import pandas as pd
 import numpy as np
@@ -434,7 +434,7 @@ def compute_eer_3(y : np.ndarray, y_score: np.ndarray): # y is the ground truth,
     return eer, thresh # eer is the equal error rate, thresh is the threshold at eer
 
 # Implementation of the EER function 
-def compute_eer_2(label, pred_score, positive_label=1):
+def compute_eer_2(label : np.ndarray, pred_score : np.ndarray, positive_label : int = 1):
     # all fpr, tpr, fnr, fnr, threshold are lists (in the format of np.array)
     fpr, tpr, threshold = roc_curve(label, pred_score, pos_label=positive_label)
     fnr = 1 - tpr
@@ -451,6 +451,42 @@ def compute_eer_2(label, pred_score, positive_label=1):
     # return the mean of eer from fpr and from fnr
     eer = (eer_1 + eer_2) / 2
     return eer_1,eer_2,eer,eer_threshold
+
+
+# function to plot DET curve with EER point
+def DETCurve(fpr: float,fnr: float, eer_fpr: float,eer_fnr: float, model_name: str, plot_type: Literal["plot", "save"] = "plot", is_mlflow: bool = False):
+    plt.figure()
+    FPR= fpr 
+    TPR =1-fnr
+    FNR = fnr
+    if plot_type == "plot":
+        plt.plot(FPR*100, FNR*100, color='b', lw=2, label='DET Curve')
+    elif plot_type == "step":
+        plt.step(FPR*100, FNR*100, color='b', lw=2, label='DET Curve')
+        
+
+    # Plot EER point
+    #eer_index = np.argmin(np.abs(FPR - (1 - TPR)))
+    #eer_fpr = FPR[eer_index]*100
+    #eer_fnr = FNR[eer_index]*100
+    eer_fpr = eer_fpr*100
+    eer_fnr = eer_fnr*100
+    
+    if plot_type == "plot":
+        plt.plot(eer_fpr, eer_fnr, 'ro', label=f'EER ({eer_fpr:.4f}%, {eer_fnr:.4f}%)')
+    elif plot_type == "step":
+        plt.step(eer_fpr, eer_fnr, 'ro', label=f'EER ({eer_fpr:.4f}%, {eer_fnr:.4f}%)')
+
+    # Annotate EER point
+    plt.annotate(f'EER ({eer_fpr:.4f}%, {eer_fnr:.4f}%)',
+                xy=(eer_fpr, eer_fnr),
+                xytext=(eer_fpr - eer_fpr/4, eer_fnr + eer_fnr/4),
+                arrowprops=dict(arrowstyle='->'))
+    plt.xlabel('False Positive Rate (FPR) (%)')
+    plt.ylabel('False Negative Rate (FNR) (%)')
+    plt.title('Detection Error Tradeoff (DET) Curve (%) with model name - ' + model_name)
+    plt.legend()
+    plt.grid(True)
 
 
 if __name__ == "__main__":
